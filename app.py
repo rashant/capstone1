@@ -10,7 +10,8 @@ def get_db_connection():
         dbname='demo',
         user='postgres',
         password='root',
-        host='localhost'
+        host='localhost',
+        port=5433
     )
     return conn
 
